@@ -16,6 +16,7 @@ export class ListCtrl {
   }
   saveItem(item){
     this.items.push(item);
+    confirm("Data Added !");
   }
   
   viewItem(item){

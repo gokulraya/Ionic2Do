@@ -73453,6 +73453,7 @@
 	    };
 	    ListCtrl.prototype.saveItem = function (item) {
 	        this.items.push(item);
+	        confirm("Data Added !");
 	    };
 	    ListCtrl.prototype.viewItem = function (item) {
 	        this.nav.push(item_detail_1.ItemDetailPage, { item: item });
